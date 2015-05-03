@@ -1,3 +1,203 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "jquery.bxslider";
+
+.classyDolphin {
+	text-align:center;
+}
+.thumbnail {
+	margin-left:auto;
+	margin-right:auto;
+	height:270px;	
+	
+}
+p#thumbnail1.thumbnail:hover,
+img#thumbnail1.thumbnail:hover {
+	opacity: .3;
+}
+p#thumbnail2.thumbnail:hover,
+img#thumbnail2.thumbnail:hover {
+	opacity: .3;	
+}
+
+p#thumbnail3.thumbnail:hover,
+img#thumbnail3.thumbnail:hover {
+	opacity: .3;	
+}
+
+p#thumbnail4.thumbnail:hover,
+img#thumbnail4.thumbnail:hover {
+	opacity: .3;	
+}
+
+.caption{
+    display:none;
+    z-index:100;
+    position:absolute;    
+    color:black;
+    font-size:24px;
+    font-weight:bold;
+    left:95px;
+    top:70px;
+    pointer-events:none;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+
+/* --------------NAV BAR*/
+.navbar-fixed-top {
+  height: 40px;
+}
+.navbar-sm {
+  min-height:40px
+}
+.navbar-sm .navbar-brand, 
+.navbar-sm .navbar-nav>li>a {
+  padding-top:10px;
+  padding-bottom:5px;
+}
+.navbar-sm .navbar-brand {
+  height: 40px;
+}
+.navbar-sm .navbar-toggle {
+  margin: 3px 9px 3px 0px;
+   padding: 4px 4px 4px 4px;
+}
+.navbar-sm .navbar-toggle .icon-bar {
+  width: 16px;
+}
+.navbar-inner {
+  text-align:center;
+  margin: 0 auto;
+}
+.white-link {
+	color:white;
+}
+.white-link:visited {
+	color:white;
+}
+.white-link:hover {
+	color:#337AB7;
+}
+.white-link:visited:hover{
+	color:#337AB7;
+}
+a:visited {
+	color:black;
+}
+/* --------------Body/Columns-*/
+.col-lg-12 {
+  text-align:center;
+}
+.container .col-lg-12 {
+  text-align:center;
+  padding-top:60px;
+}
+.col-lg-12 h1{
+  font-family:'Open Sans',sans-serif;
+  font-size:30px;
+  font-style:italic;
+  font-weight:600;
+ }
+.col-lg-12 p{
+  font-family:'Roboto Slab',serif;
+  font-weight:300;
+  font-size:22px;
+  padding:40px 0;
+  max-width:800px;
+  position:relative;
+  left:150px;
+}
+.col-lg-6 p{
+  font-size:15px;
+  line-height:1.9;
+  margin-top:10px;
+  padding:20px;
+}
+.aboutme{
+  background-color:#f4fae5;
+}
+.research,.aboutme{
+  padding-bottom:60px;
+}
+.col-lg-6 p span{
+  font-family:'Open Sans',sans-serif;
+}
+.col-lg-6 ul li{
+  list-style-type:none;
+  float:left;
+  margin-right:25px;
+  margin-top:-15px;
+}
+.research .col-lg-6 ol li{
+  margin:0;
+  padding-top:15px;
+  font-size:15px;
+}
+.research .col-lg-6 ol li.first{
+  padding-top:0;
+}
+.col-lg-3 h3{
+  font-family:'Open Sans',sans-serif;
+  font-size:18px;
+  font-weight:400;
+  margin-top:30px;
+}
+.col-lg-3 ul{
+  margin-top:20px;
+  padding:0;
+}
+.col-lg-3 ul li{
+  list-style-type:none;
+  font-family:'Roboto Slab',serif;
+  font-weight:300;
+  padding-bottom:15px;
+  font-size:15px;
+}
+.col-lg-3 p.older{
+font-family:'Open Sans',sans-serif;
+}
+
+
+/* --------------Jumbotron*/
+body {
+	padding: 0; /* Gets rid of the automatic padding */
+	margin: 0;	/*	on HTML documents */
+	font-family: Lucida Grande, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	position:relative;
+	-webkit-font-smoothing: antialiased;
+	font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#footer {
+	margin-top:20px;
+	background-color:black;
+	height:50px;
+}
+
+a {
+	font-size: 14px;
+	color: black;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-decoration: none;
+	outline: 0;
+}
+a:hover, a:active, a:focus {
+	outline: 0;
+}
+
+
+
+#slides {
+	display: none;
+}
+
+.container {
+	margin: 0 auto;
+}
+
