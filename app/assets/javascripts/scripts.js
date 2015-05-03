@@ -74,8 +74,8 @@ $(document).ready(function() {
 	    });
 	    $('img#thumbnail4.thumbnail').on('mouseleave', function() {
 		$('#caption4').hide();
-	    });
-	});
+    	});
+});
 
 
 
