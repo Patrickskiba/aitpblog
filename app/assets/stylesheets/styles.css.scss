@@ -101,7 +101,13 @@ html {
 .white-link:visited {
 	color:white;
 }
-.white-link:hover {
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+}
+.white-link:hover, 
+.white-link:focus {
+	text-decoration: none;
 	color:#337AB7;
 }
 .white-link:visited:hover{
