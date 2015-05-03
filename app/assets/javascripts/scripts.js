@@ -1,10 +1,17 @@
 $(document).ready(function() {
 
-		$('.bxslider1').bxSlider({
-			Controls: true	
+		var slider1 = $('.bxslider1').bxSlider({
+			Controls: true,
+			slideWidth: 800,
 		});
-		$('.bxslider2').bxSlider();
-		$('.bxslider3').bxSlider();
+		var slider2 = $('.bxslider2').bxSlider({
+			Controls: true,
+			slideWidth: 800,
+		});
+		var slider3 = $('.bxslider3').bxSlider({
+			Controls: true,
+			slideWidth: 800,
+		});
 		$('a[href*=#]:not([href=#])').click(function() {
 			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 				var target = $(this.hash);
@@ -23,6 +30,7 @@ $(document).ready(function() {
 
 	    $('#thumbnail1').on('click', function() {
 		$('.slider').not( "#slider1" ).slideUp( function() {
+			slider1.reloadSlider();
 			$('#slider1').slideDown( "slow", function() {
 				$('html, body').animate( {
 					scrollTop: $("#slider1").offset().top
@@ -32,6 +40,7 @@ $(document).ready(function() {
 	    });
 	    $('#thumbnail2').on('click', function() {
 		$('.slider').not( "#slider2" ).slideUp( function() {
+			slider2.reloadSlider();
 			$('#slider2').slideDown( "slow", function() {
 				$('html, body').animate( {
 					scrollTop: $("#slider2").offset().top
@@ -41,6 +50,7 @@ $(document).ready(function() {
 	    });
 	    $('#thumbnail3').on('click', function() {
 		$('.slider').not( "#slider3" ).slideUp( function() {
+			slider3.reloadSlider();
 			$('#slider3').slideDown( "slow", function() {
 				$('html, body').animate( {
 					scrollTop: $("#slider3").offset().top
