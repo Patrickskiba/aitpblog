@@ -2,6 +2,29 @@
 @import "bootstrap";
 @import "jquery.bxslider";
 
+.jumbotron {
+  	background-image: image-url('aitp_jumbotron.jpg');
+  	background-attachment:fixed;
+  	background-position:center top;
+  	background-size:100vw 100vh;
+  	position:relative;
+  	background-repeat:no-repeat;
+  	width:100vw;
+  	height:100vh;
+}
+.bx-wrapper .bx-prev {
+  	left: 10px;
+  	background-image: image-url('controls.png');
+  	background-repeat: no-repeat;
+  	background-position: 0 -32px;
+}
+
+.bx-wrapper .bx-next {
+  	right: 10px;
+  	background-image: image-url('controls.png');
+  	background-repeat: no-repeat;
+  	background-position: -43px 0px;
+}
 .classyDolphin {
 	text-align:center;
 }
