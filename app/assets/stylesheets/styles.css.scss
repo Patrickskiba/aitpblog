@@ -1,7 +1,14 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "jquery.bxslider";
-
+.heading {
+	font-size:30px;
+}
+.posts {
+	padding-top:30px;
+	margin-left:100px;
+	margin-right:100px;
+}
 .jumbotron {
   	background-image: image-url('aitp_jumbotron.jpg');
   	background-attachment:fixed;

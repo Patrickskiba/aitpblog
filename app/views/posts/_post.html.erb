@@ -1,2 +1,2 @@
- <h2><%= link_to_unless_current post.title, post %></h2>
+<p class='heading'><%= link_to_unless_current post.title, post, class: "heading" %></p>
  <%= simple_format post.body %>
