@@ -73,30 +73,30 @@ $(document).ready(function() {
 		});
 	    });
 
-	    $('img#thumbnail1.thumbnail').on('mouseenter', function() {
+	    $('img#thumbnail1.img-circle').on('mouseenter', function() {
 		$('#caption1').show();
 	    });
-	    $('img#thumbnail1.thumbnail').on('mouseleave', function() {
+	    $('img#thumbnail1.img-circle').on('mouseleave', function() {
 		$('#caption1').hide();
 	    });
-	    $('img#thumbnail2.thumbnail').on('mouseenter', function() {
+	    $('img#thumbnail2.img-circle').on('mouseenter', function() {
 		$('#caption2').show();
 
 	    });
-	    $('img#thumbnail2.thumbnail').on('mouseleave', function() {
+	    $('img#thumbnail2.img-circle').on('mouseleave', function() {
 		$('#caption2').hide();
 	    });
-	    $('img#thumbnail3.thumbnail').on('mouseenter', function() {
+	    $('img#thumbnail3.img-circle').on('mouseenter', function() {
 		$('#caption3').show();
 	    });
-	    $('img#thumbnail3.thumbnail').on('mouseleave', function() {
+	    $('img#thumbnail3.img-circle').on('mouseleave', function() {
 		$('#caption3').hide();
 	    });
-	    $('img#thumbnail4.thumbnail').on('mouseenter', function() {
+	    $('img#thumbnail4.img-circle').on('mouseenter', function() {
 		$('#caption4').css({ "top": "70px", "left": "40px" });
 		$('#caption4').show();
 	    });
-	    $('img#thumbnail4.thumbnail').on('mouseleave', function() {
+	    $('img#thumbnail4.img-circle').on('mouseleave', function() {
 		$('#caption4').hide();
     	});
 });
