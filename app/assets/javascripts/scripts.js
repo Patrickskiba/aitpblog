@@ -29,32 +29,32 @@ $(document).ready(function() {
 		$('.slider').slideUp();
 
 	    $('#thumbnail1').on('click', function() {
-		$('.slider').not( "#slider1" ).slideUp( function() {
+		$('.slider').not( "#slider1" ).slideUp("500", function() {
 			slider1.reloadSlider();
-			$('#slider1').slideDown( "slow", function() {
+			$('#slider1').slideDown( "500", function() {
 				$('html, body').animate( {
 					scrollTop: $("#slider1").offset().top
-				}, 300);
+				}, 500);
 			});
 		});
 	    });
 	    $('#thumbnail2').on('click', function() {
-		$('.slider').not( "#slider2" ).slideUp( function() {
+		$('.slider').not( "#slider2" ).slideUp("500", function() {
 			slider2.reloadSlider();
-			$('#slider2').slideDown( "slow", function() {
+			$('#slider2').slideDown( "500", function() {
 				$('html, body').animate( {
 					scrollTop: $("#slider2").offset().top
-				}, 300);
+				}, 500);
 			});
 		});
 	    });
 	    $('#thumbnail3').on('click', function() {
-		$('.slider').not( "#slider3" ).slideUp( function() {
+		$('.slider').not( "#slider3" ).slideUp("500", function() {
 			slider3.reloadSlider();
-			$('#slider3').slideDown( "slow", function() {
+			$('#slider3').slideDown( "500", function() {
 				$('html, body').animate( {
 					scrollTop: $("#slider3").offset().top
-				}, 300);
+				}, 500);
 			});
 		});
 	    });
