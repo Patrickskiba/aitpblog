@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   
   root 'static_pages#home'
   get 'static_pages/constitution'
+  get 'static_pages/events'
   resources :posts
 
   # The priority is based upon order of creation: first created -> highest priority.
