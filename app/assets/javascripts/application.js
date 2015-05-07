@@ -14,8 +14,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require jquery.turbolinks
-//= require_tree .
 //= require jquery.bxslider.min
-//= require fullcalendar.min
+//= require moment
+//= require fullcalendar
 //= require gcal
 //= require scripts

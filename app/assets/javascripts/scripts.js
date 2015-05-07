@@ -105,10 +105,16 @@ $(document).ready(function() {
                         // THIS KEY WON'T WORK IN PRODUCTION!!!
                         // To make your own Google API key, follow the directions here:
                         // http://fullcalendar.io/docs/google_calendar/
-                        googleCalendarApiKey: 'AIzaSyAggCtVkqyR1vU0ktZaKmfHnDY1hL2Vt9A',
+                           header: {
+      				left: 'prev,next today',
+     				center: 'title',
+      				right: 'month,agendaWeek,agendaDay'
+    			}, googleCalendarApiKey: 'AIzaSyBbOT9b3HcwubZmV-gU0menwEiVrt-ijmA',
                 
                         // US Holidays
-                        events: 'usa__en@holiday.calendar.google.com',
+                        events: 'superninja234@gmail.com',
+			
+			
                         
                         eventClick: function(event) {
                                 // opens events in a popup window
