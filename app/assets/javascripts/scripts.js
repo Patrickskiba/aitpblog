@@ -39,9 +39,10 @@ $(document).ready(function() {
 		$('.slider').not( "#slider1" ).slideUp("500", function() {
 			slider1.reloadSlider();
 			$('#slider1').slideDown( "500", function() {
-				$('html, body').animate( {
+				if($( window ).width() >= 756) {
+					$('html, body').animate( {
 					scrollTop: $("#slider1").offset().top-50
-				}, 500);
+				}, 500);}
 			});
 		});
 	    });
@@ -49,9 +50,10 @@ $(document).ready(function() {
 		$('.slider').not( "#slider2" ).slideUp("500", function() {
 			slider2.reloadSlider();
 			$('#slider2').slideDown( "500", function() {
+				if($( window ).width() >= 756) {
 				$('html, body').animate( {
 					scrollTop: $("#slider2").offset().top-50
-				}, 500);
+				}, 500);}
 			});
 		});
 	    });
@@ -59,9 +61,10 @@ $(document).ready(function() {
 		$('.slider').not( "#slider3" ).slideUp("500", function() {
 			slider3.reloadSlider();
 			$('#slider3').slideDown( "500", function() {
+				if($( window ).width() >= 756) {
 				$('html, body').animate( {
 					scrollTop: $("#slider3").offset().top-50
-				}, 500);
+				}, 500);}
 			});
 		});
 	    });
@@ -69,9 +72,10 @@ $(document).ready(function() {
 		$('.slider').not( "#slider4" ).slideUp("500", function() {
 			slider4.reloadSlider();
 			$('#slider4').slideDown( "500", function() {
+				if($( window ).width() >= 756) {
 				$('html, body').animate( {
 					scrollTop: $("#slider4").offset().top-50
-				}, 500);
+				}, 500);}
 			});
 		});
 	    });
