@@ -45,6 +45,17 @@
   	width:100vw;
   	height:40vh;
 	}
+	.caption {
+	display:none;
+	z-index:100;
+	position:absolute;    
+	color:black;
+	font-size:1em;
+	font-weight:bold;
+	left:95px;
+	top:70px;
+	pointer-events:none;
+	}
 }
 @media (min-width: 766px){
 	.jumbotron {
@@ -62,7 +73,7 @@
 	z-index:100;
 	position:absolute;    
 	color:black;
-	font-size:24px;
+	font-size:1.75em;
 	font-weight:bold;
 	left:95px;
 	top:70px;
