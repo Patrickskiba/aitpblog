@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	
 
 		var slider1 = $('.bxslider1').bxSlider({
 			Controls: true,
@@ -28,7 +29,9 @@ $(document).ready(function() {
 				}
 			}
 		});
-
+	$('.navbar-toggle').on('click', function() {
+		$('.navbar-collapse').slideToggle();
+	});
 
 		$('.slider').slideUp();
 

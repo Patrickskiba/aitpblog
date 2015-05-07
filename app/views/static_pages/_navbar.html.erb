@@ -4,8 +4,13 @@
 			<a class="navbar-brand" href="#">
 				<%= image_tag "AITP_logo.png"%>
 			</a>
+		        <button type="button" class="navbar-toggle">
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>                        
+      			</button>	
 		</div>
-		<div class="navbar">
+		<div class="navbar-collapse" id="myNavbar">
 			<ul class="nav nav-justified">
 				<li><%= link_to 'HOME', '/#home', class:"white-link" %></li>
 				<li><%= link_to 'ABOUT US', '/#about', class:"white-link"  %></li>

@@ -12,7 +12,11 @@
 	max-width: 900px;
 	margin: 0 auto;
 }
-
+@media (max-width: 765px){
+	.navbar-collapse {
+		display:none;
+	}
+}
 .heading {
 	color:black;
 	font-size:30px;
