@@ -16,9 +16,10 @@
 	.navbar-collapse {
 		display:none;
 	}
-}
-@media (max-width: 765px){
 	.footer-links {
+		display:none;
+	}
+	.no-show {
 		display:none;
 	}
 }
@@ -31,7 +32,22 @@
 	margin-left:100px;
 	margin-right:100px;
 }
-.jumbotron {
+
+
+@media (max-width: 765px){
+	.jumbotron {
+  	background-image: image-url('aitp_jumbotron.jpg');
+  	background-attachment:fixed;
+  	background-position:center top;
+  	background-size:100vw;
+  	position:relative;
+  	background-repeat:no-repeat;
+  	width:100vw;
+  	height:40vh;
+	}
+}
+@media (min-width: 766px){
+	.jumbotron {
   	background-image: image-url('aitp_jumbotron.jpg');
   	background-attachment:fixed;
   	background-position:center top;
@@ -40,6 +56,7 @@
   	background-repeat:no-repeat;
   	width:100vw;
   	height:100vh;
+	}
 }
 .bx-wrapper .bx-prev {
   	left: 10px;
@@ -128,23 +145,48 @@ html {
   	text-align:center;
   	margin: 0 auto;
 }
-.white-link {
-	color:white;
+@media (min-width: 766px){
+	.white-link {
+		color:white;
+	}
+	.white-link:visited {
+		color:white;
+	}
+	.nar > li > a, .nav > li > a:hover, .nav > li > a:focus {
+    		text-decoration: none;
+    		background-color: transparent;
+	}
+	.white-link:hover, 
+	.white-link:focus {
+		text-decoration: none;
+		color:#337AB7;
+	}
+	.white-link:visited:hover{
+		color:#337AB7;
+	}
 }
-.white-link:visited {
-	color:white;
-}
-.nav > li > a:hover, .nav > li > a:focus {
-    text-decoration: none;
-    background-color: transparent;
-}
-.white-link:hover, 
-.white-link:focus {
-	text-decoration: none;
-	color:#337AB7;
-}
-.white-link:visited:hover{
-	color:#337AB7;
+@media (max-width: 765px){
+	.white-link {
+		background-color:#d3d3d3;	
+		color:black;
+	}
+	.white-link:visited {
+		background-color:#d3d3d3;	
+		color:black;
+	}
+
+	.nar > li > a, .nav > li > a:hover, .nav > li > a:focus {
+    		background-color:#d3d3d3;
+	}
+	.white-link:hover, 
+	.white-link:focus {
+		background-color:#d3d3d3;	
+		color:#337AB7;
+	}
+	.white-link:visited:hover{
+		background-color:#d3d3d3;	
+		color:#337AB7;
+	}
 }
 /* --------------Body/Columns-*/
 .col-lg-12 {
