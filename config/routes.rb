@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
   
-  resources :donations
-
   root 'static_pages#home'
   get 'static_pages/constitution'
   get 'static_pages/events'
