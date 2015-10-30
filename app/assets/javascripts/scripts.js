@@ -116,10 +116,10 @@ $(document).ready(function() {
       				left: 'prev,next today',
      				center: 'title',
       				right: 'month,agendaWeek,agendaDay'
-    			}, googleCalendarApiKey: 'AIzaSyBbOT9b3HcwubZmV-gU0menwEiVrt-ijmA',
+    			}, googleCalendarApiKey: 'AIzaSyAMuak3Xzz0bseFZI62U9znaabCUYxevJ4',
                 
                         // US Holidays
-                        events: 'superninja234@gmail.com',
+                        events: 'ecsuaitplocker@gmail.com',
 			
 			
                         
