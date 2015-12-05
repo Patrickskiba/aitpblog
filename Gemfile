@@ -19,6 +19,8 @@ gem 'fullcalendar-rails'
 gem 'momentjs-rails'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'simple_form'
+gem 'mail_form'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 gem 'jquery-turbolinks', '~> 2.1.0'

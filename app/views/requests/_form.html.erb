@@ -1,0 +1,25 @@
+<%= simple_form_for(@request) do |f| %>
+  <%= f.error_notification %>
+  <%= f.input :name %>
+  <%= f.input :organization %>
+  <%= f.input :email %>
+  <%= f.input :phone %>
+  <%= f.input :address %>
+  <%= f.input :message %>
+  <%= f.label :comp, 'Number of Computers Requested', :value => 'Number of Computers Requested ' %></br>
+  <%= f.radio_button :comp, 1 %> 
+  <%= f.label :comp, '1', :value => '1' %>
+  <%= f.radio_button :comp, 2 %> 
+  <%= f.label :comp, '2', :value => '2' %>
+  <%= f.radio_button :comp, 3 %> 
+  <%= f.label :comp, '3', :value => '3' %>
+  <%= f.radio_button :comp, 4 %> 
+  <%= f.label :comp, '4', :value => '4' %>
+  <%= f.radio_button :comp, 5 %> 
+  <%= f.label :comp, '5', :value => '5' %>
+  <%= f.radio_button :comp, 6 %> 
+  <%= f.label :comp, '6', :value => '6' %>
+  <%= f.radio_button :comp, 7 %> 
+  <%= f.label :comp, '7', :value => '7' %></br>
+  <%= f.button :submit %>
+<% end %>
