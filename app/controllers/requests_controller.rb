@@ -29,10 +29,10 @@ class RequestsController < ApplicationController
         @request.request = request
 	    if @request.deliver
 	          flash.now[:notice] = 'Thank you for your message. We will contact you soon!'
-		  redirect_to '/'
+		  redirect_to 'http://ecsuaitp.com'
 	      else
 	          flash.now[:error] = 'Cannot send message.'
-	          render :new
+		  redirect_to 'http://ecsuaitp.com'
 	    end
   end
 

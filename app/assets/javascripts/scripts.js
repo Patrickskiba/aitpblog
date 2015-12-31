@@ -119,9 +119,12 @@ $(document).ready(function() {
     			}, googleCalendarApiKey: 'AIzaSyAMuak3Xzz0bseFZI62U9znaabCUYxevJ4',
                 
                         // US Holidays
-                        events: 'ecsuaitplocker@gmail.com',
+                         
+			events: 'ecsuaitplocker@gmail.com',
 			
 			
+			timezone: 'America/New_York',
+			ignoreTimezone: false,
                         
                         eventClick: function(event) {
                                 // opens events in a popup window

@@ -8,10 +8,11 @@ class Request < MailForm::Base
 	attribute :comp, :validate => true
   def headers
     {
-      :from => "aitp@my.easternct.edu",
+      :from => "ecsuaitplocker@gmail.com",
       :subject => "Computer Request",
-      :to => "superninja234@gmail.com",
-      :cc => "skibap@my.easternct.edu",
+      :to => "keroberts17@gmail.com",
+      :cc => "aitp@my.easternct.edu",
+      :cc => "citursa@easternct.edu",
     }
   end	
 end
