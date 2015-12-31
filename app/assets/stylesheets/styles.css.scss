@@ -304,5 +304,8 @@ a:visited {
 .container {
 	margin: 0 auto;
 }
+body > div:nth-child(4) > div > div:nth-child(2) > a:hover {
+	background-color:white;
+}
 
 @import "fullcalendar";
